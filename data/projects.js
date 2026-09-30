@@ -232,7 +232,7 @@ window.PROJECTS = [
     name: "Troca Segura",
     draft: false,
     categories: ["web"],
-    cover: "", // TODO: adicionar assets/projects/trocas/cover.jpg + screenshots
+    cover: "assets/projects/trocas/cover.jpg",
 
     shortDescription:
       "Marketplace de eletrônicos entre pessoas com intermediação física: o produto passa por inspeção em um hub antes de chegar ao comprador.",
@@ -268,7 +268,10 @@ window.PROJECTS = [
 
     learnings: "", // TODO
 
-    images: [], // TODO: assets/projects/trocas/01.jpg ...
+    images: [
+      { src: "assets/projects/trocas/01.jpg", alt: "Página inicial: busca de produtos, categorias, como funciona e garantias de segurança" },
+      // TODO: adicionar mais screenshots (negociação, inspeção, painel admin...)
+    ],
 
     links: {
       github: "https://github.com/henriquesilva22/Trocas",
